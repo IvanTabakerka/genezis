@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div class="list">
+      <h1>CRM Table</h1>
       <ListControl></ListControl>
       <div class="list_content">
         <!--Если бы это было не тестовое задание, я бы предложил бы сделать три отдельных раздела-->
@@ -31,7 +32,9 @@ const module = moduleStore()
 
 <style lang="sass" scoped>
 .list
-  margin: 80px 0
+  h1
+    margin: 30px 0
+    text-align: center
 .list_nodata
   margin: 80px auto
   text-align: center
